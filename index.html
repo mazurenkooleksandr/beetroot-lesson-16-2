@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <div class="tab">
+                <input type="radio" id="tab1" name="tab-group" checked>
+                <label for="tab1" class="tab-title">Sign in</label> 
+            </div> 
+            <div class="tab">
+                <input type="radio" id="tab2" name="tab-group">
+                <label for="tab2" class="tab-title">Join us</label> 
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form action="#" method="post">
+                <label class="label-form-container" for="nameField">Username</label><br>
+                <input class="text-form-container" type="text" id="nameField" name="name">
+                <br>
+                <label class="label-form-container" for="passwordField">Password</label><br>
+                <input class="text-form-container" type="password" id="passwordField" name="password">
+                <br>
+                <input type="checkbox" class="aaa" id="signField" name="signin" value="keep me signed in"><span class="text-checkbox-form-container">Keep me signed in</span><br> 
+                <input type="submit" value="Sign in">
+            </form>
+        </div>
+
+        <div class="tabs-footer-container">
+            <div class="tab-footer-container one">
+                <input type="radio" id="tab3" name="tab-group" checked>
+                <label for="tab3" class="tab-title-footer-container">Forgot password</label> 
+            </div> 
+            <div class="tab-footer-container">
+                <input type="radio" id="tab4" name="tab-group">
+                <label for="tab4" class="tab-title-footer-container">Create an account</label> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
